@@ -1,0 +1,36 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta
+  title="useIsMounted/docs"
+/>
+
+# useIsMounted
+
+Returns a Ref that is `true` as long as the component is mounted
+
+## Reference
+
+```ts
+function useIsMounted(): RefObject<boolean>
+```
+
+### Returns
+
+* `RefObject<boolean>` - Returns `true` as long as the component is mounted
+
+## Usage
+
+```tsx
+const isMounted = useIsMounted();
+````
+
+```tsx
+function DemoComponent() {
+  const isMounted = useIsMounted();
+
+  return (
+    <div>
+    </div>
+  );
+}
+```

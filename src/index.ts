@@ -1,4 +1,5 @@
 /* PLOP_ADD_EXPORT */
+export * from './useIsMounted/useIsMounted';
 export * from './useSyncRegisterRef/useSyncRegisterRef';
 export * from './useIsomorphicLayoutEffect/useIsomorphicLayoutEffect';
 export * from './useMount/useMount';
